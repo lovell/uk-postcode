@@ -17,7 +17,7 @@ CommonJS library for parsing and validating UK postcodes
 ## Testing
 
     cd commonjs-uk-postcode/test
-    node ukPostcode.js`
+    node ukPostcode.js
 
 ## Licence
 

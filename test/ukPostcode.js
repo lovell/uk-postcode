@@ -7,7 +7,7 @@
  */
 
 var assert = require('assert');
-var Postcode = require('../lib/ukPostcode.js').Postcode;
+var UKPostcode = require('../lib/ukPostcode.js').UKPostcode;
 
 // Valid postcodes
 [
@@ -20,7 +20,7 @@ var Postcode = require('../lib/ukPostcode.js').Postcode;
     "BX1 1LT", "BX11LT", // Non-geographic postcode - Lloyds TSB
     "GIR 0AA", "GIR0AA", // Non-geographic postcode - Santander
 ].forEach(function(value){
-    var postcode = new Postcode(value);
+    var postcode = new UKPostcode(value);
     assert.ok(postcode.isValid(), "Valid postcode " + value + " was deemed invalid")
 });
 
@@ -35,6 +35,6 @@ var Postcode = require('../lib/ukPostcode.js').Postcode;
     "AI-2640", // Anguilla
     "BFPO 1234", // British Forces Post Office
 ].forEach(function(value){
-    var postcode = new Postcode(value);
+    var postcode = new UKPostcode(value);
     assert.ok(!postcode.isValid(), "Invalid postcode " + value + " was deemed valid")
 });
