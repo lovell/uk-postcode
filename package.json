@@ -1,0 +1,15 @@
+{
+	"name": "commonjs-uk-postcode",
+	"version": "0.1.0",
+	"main": "./lib/ukPostcode",
+	"description": "CommonJS library for parsing and validating UK postcodes",
+	"repositories": [
+		{
+			"type": "git",
+			"url": "http://github.com/lovell/commonjs-uk-postcode"
+		}
+	],
+	"engines": {
+		"node": ">=0.2.0"
+	}
+}
