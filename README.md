@@ -8,8 +8,8 @@ CommonJS library for parsing and validating UK postcodes
 
 ## Usage
 
-    var Postcode = require('../lib/ukPostcode.js').Postcode;
-    var postcode = new Postcode("M1 1AA");
+    var UKPostcode = require('../lib/ukPostcode.js').UKPostcode;
+    var postcode = new UKPostcode("M1 1AA");
     if (postcode.isValid()) {
         sys.log(postcode)
     }
