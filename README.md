@@ -1,6 +1,6 @@
 # commonjs-uk-postcode
 
-CommonJS library for parsing and validating UK postcodes.
+CommonJS library for parsing and validating UK postcodes
 
 ## Installation
 
@@ -8,18 +8,17 @@ CommonJS library for parsing and validating UK postcodes.
 
 ## Usage
 
-    var UKPostcode = require('../lib/ukPostcode.js').UKPostcode;
+    var UKPostcode = require('/path/to/lib/ukPostcode').UKPostcode;
     var postcode = new UKPostcode("M1 1AA");
     if (postcode.isValid()) {
-        sys.log(postcode);
+        console.log(postcode);
     }
 
 ## Testing
 
-Unit tests use [node.js](http://nodejs.org/) assertions
+Unit tests use [CommonJS assertions](http://wiki.commonjs.org/wiki/Unit_Testing/1.0)
 
-    cd commonjs-uk-postcode/test
-    node ukPostcode.js
+    node test/ukPostcode.js
 
 ## Licence
 

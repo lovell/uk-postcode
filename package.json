@@ -1,6 +1,6 @@
 {
 	"name": "commonjs-uk-postcode",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"main": "./lib/ukPostcode",
 	"description": "CommonJS library for parsing and validating UK postcodes",
 	"repositories": [
@@ -10,6 +10,6 @@
 		}
 	],
 	"engines": {
-		"node": ">=0.2.0"
+		"node": ">=0.4.0"
 	}
 }
