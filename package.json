@@ -1,15 +1,27 @@
 {
-	"name": "commonjs-uk-postcode",
-	"version": "0.1.1",
-	"main": "./lib/ukPostcode",
-	"description": "CommonJS library for parsing and validating UK postcodes",
-	"repositories": [
-		{
-			"type": "git",
-			"url": "http://github.com/lovell/commonjs-uk-postcode"
-		}
-	],
-	"engines": {
-		"node": ">=0.4.0"
-	}
+  "name": "uk-postcode",
+  "version": "0.1.0",
+  "main": "./lib/ukPostcode",
+  "description": "Parse and validate UK postcodes",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lovell/uk-postcode"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/all"
+  },
+  "keywords": [
+    "uk",
+    "postcode",
+    "validation",
+	"geo"
+  ],
+  "author": "Lovell Fuller",
+  "license": "Apache 2.0"
 }
