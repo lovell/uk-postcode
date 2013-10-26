@@ -18,7 +18,8 @@ var ukPostcode = require('../lib/ukPostcode.js');
   "DN55 1PT", "DN551PT",
   "W1A 1HQ", "W1A1HQ",
   "EC1A 1BB", "EC1A1BB",
-  "BX1 1LT", "BX11LT", // Non-geographic - Lloyds TSB
+  "XM4 5HQ", "XM45HQ", // Non-geographic - Father Christmas
+  "BX1 1LT", "BX11LT", // Non-geographic - Lloyds Banking Group
   "GIR 0AA", "GIR0AA" // Non-geographic - Santander
 ].forEach(function(value) {
   var postcode = ukPostcode.fromString(value);
