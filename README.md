@@ -1,7 +1,5 @@
 # uk-postcode
 
-<a href="http://www.flickr.com/photos/55935853@N00/3323454315" target="_blank"><img src="https://farm4.staticflickr.com/3661/3323454315_9873aa2c59_t.jpg" title="Blackheath, SE London, photo by Ewan Munro" align="right"></a>
-
 Node.js module for parsing and validating UK postcodes.
 
 ## Install
@@ -13,16 +11,16 @@ Node.js module for parsing and validating UK postcodes.
     var ukPostcode = require("uk-postcode");
     var postcode = ukPostcode.fromString("M11AA");
     if (postcode.isValid()) {
-      console.log(postcode);  // "M1 1AA"
-	  console.log(postcode.outward); // "M1"
-      console.log(postcode.inward);  // "1AA"
+      console.log(postcode);         // M1 1AA
+      console.log(postcode.outward); // M1
+      console.log(postcode.inward);  // 1AA
     }
 
 ## Testing [![Build Status](https://travis-ci.org/lovell/uk-postcode.png?branch=master)](https://travis-ci.org/lovell/uk-postcode)
 
 Run the unit tests with:
 
-    node tests/all
+    npm test
 
 ## Licence
 

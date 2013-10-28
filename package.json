@@ -1,6 +1,6 @@
 {
   "name": "uk-postcode",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "./lib/ukPostcode",
   "description": "Parse and validate UK postcodes",
   "repository": {
@@ -10,11 +10,8 @@
   "engines": {
     "node": "*"
   },
-  "directories": {
-    "test": "tests"
-  },
   "scripts": {
-    "test": "node tests/all"
+    "test": "node test/all"
   },
   "keywords": [
     "uk",
